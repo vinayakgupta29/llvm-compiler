@@ -1,0 +1,13 @@
+mod Hypr (sinh, cosh, tanh) {
+    func sinh(x: Float) -> Float {
+        => (super.super.pow(super.super.CONST_E, x) - super.super.pow(super.super.CONST_E, -x)) / 2.0
+    }
+    
+    func cosh(x: Float) -> Float {
+        => (super.super.pow(super.super.CONST_E, x) + super.super.pow(super.super.CONST_E, -x)) / 2.0
+    }
+    
+    func tanh(x: Float) -> Float {
+        => sinh(x) / cosh(x)
+    }
+}

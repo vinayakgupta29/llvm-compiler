@@ -1,0 +1,18 @@
+app Main {
+    func factorial(n: Int) -> Int {
+        | n == 0 => 1
+        | otherwise => n * factorial(n - 1)
+    }
+    func fibonacci(n: Int) -> Int {
+        | n == 0 => 0
+        | n == 1 => 1
+        | otherwise => fibonacci(n - 1) + fibonacci(n - 2)
+    }
+    @start() {
+        @output("factorial.von")
+        => Von { 
+            result = factorial(6),
+            fib_result = fibonacci(6)
+            }
+    }
+}

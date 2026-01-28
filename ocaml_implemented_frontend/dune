@@ -1,0 +1,9 @@
+(ocamllex lexer)
+(menhir
+ (modules parser))
+
+(executable
+ (name main)
+ (public_name vks_frontend)
+ (package vks_frontend)
+ (libraries yojson))

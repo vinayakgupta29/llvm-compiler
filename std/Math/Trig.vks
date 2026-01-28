@@ -1,0 +1,13 @@
+mod Trig (sin, cos, tan) {
+    func sin(x: Float) -> Float {
+        // Implementation provided by runtime
+    }
+    
+    func cos(x: Float) -> Float {
+        // Implementation provided by runtime
+    }
+    
+    func tan(x: Float) -> Float {
+        // Implementation provided by runtime
+    }
+}

@@ -1,0 +1,23 @@
+mod Prelude () {
+    /{ Core prelude module - automatically imported in all VKS programs }/
+    
+    // Boolean type definition
+    data Bool = True | False;
+    
+    // Nil type definition  
+    data Nil;
+    
+    // Maybe type for optional values
+    data Maybe A = Nothing | Just A;
+    
+    // Either type for error handling
+    data Either A B = Left A | Right B;
+    
+    // Alias for convenience
+    otherwise := True;
+    
+    // Basic print function (will be implemented in runtime)
+    proc print(s: String) {
+        // Implementation provided by runtime
+    }
+}

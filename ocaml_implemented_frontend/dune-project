@@ -1,0 +1,17 @@
+(lang dune 3.7)
+(name vks_frontend)
+(version 0.1.0)
+
+(using menhir 2.1)
+
+(generate_opam_files true)
+
+(package
+ (name vks_frontend)
+ (synopsis "VKS language frontend compiler")
+ (description "OCaml-based frontend for VKS functional programming language")
+ (depends
+  (ocaml (>= 4.14))
+  dune
+  menhir
+  yojson))

@@ -1,0 +1,6 @@
+app Main {
+    @start() {
+        @output("hello.von")
+        => Von { message = "Hello, Spec!1" }
+    }
+}

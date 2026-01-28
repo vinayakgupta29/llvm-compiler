@@ -1,0 +1,15 @@
+mod Math (PI, CONST_E, sqrt, pow) {
+    PI : Float = 3.141592653589793;
+    CONST_E : Float = 2.718281828459045;
+    
+    func sqrt(x: Float) -> Float {
+        // Implementation provided by runtime
+    }
+    
+    func pow(base: Float, exp: Float) -> Float {
+        // Implementation provided by runtime
+    }
+    
+    +mod Trig
+    +mod Hypr
+}
